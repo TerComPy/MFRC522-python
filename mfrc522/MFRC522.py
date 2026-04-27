@@ -1,11 +1,8 @@
-#!/usr/bin/env python
-# -*- coding: utf8 -*-
-#
-#    Copyright 2014,2018 Mario Gomez <mario.gomez@teubi.co>
+#    Forked by TerComPy in 2026 from the original code by Mario Gomez
 #
 #    This file is part of MFRC522-Python
 #    MFRC522-Python is a simple Python implementation for
-#    the MFRC522 NFC Card Reader for the Raspberry Pi.
+#    the MFRC522 NFC Card Reader for the Orange Pi.
 #
 #    MFRC522-Python is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Lesser General Public License as published by

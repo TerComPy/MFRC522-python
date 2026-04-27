@@ -1,4 +1,4 @@
-# Code by Simon Monk https://github.com/simonmonk/
+# Forked by TerComPy https://t.me/tercompy
 
 from . import MFRC522
 import OPi.GPIO as GPIO

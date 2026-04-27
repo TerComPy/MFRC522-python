@@ -136,7 +136,6 @@ class MFRC522:
         self.logger.setLevel(level)
 
         GPIO.setmode(GPIO.BOARD)
-            
         
         pin_rst = 13
             

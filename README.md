@@ -2,11 +2,19 @@
 
 A python library to read/write RFID tags via the budget MFRC522 RFID module.
 
-This code was published in relation to a [blog post](https://pimylifeup.com/raspberry-pi-rfid-rc522/) and you can find out more about how to hook up your MFRC reader to a Raspberry Pi there.
+This code was published in relation to a [blog post](https://pimylifeup.com/raspberry-pi-rfid-rc522/) and you can find out more about how to hook up your MFRC reader to a Orange Pi there.
 
 ## Installation
 
-Until the package is on PyPi, clone this repository and run `python setup.py install` in the top level directory.
+Download the sources, go to the root folder of the sources and run
+```bash
+pip3 install .
+```
+
+## ATTENTION
+RST Pin connect to the PC7 Port on your Orange Pi (im defined physically port 13 on my Orange Pi Zero 3)
+
+If you need specify your port then open mfrc522/MFRC522.py and change `pin_rst` to your number of the physically port
 
 ## Example Code
 

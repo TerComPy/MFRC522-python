@@ -14,6 +14,8 @@ pip3 install .
 ## ATTENTION
 RST Pin connect to the PC7 Port on your Orange Pi (im defined physically port 13 on my Orange Pi Zero 3)
 
+![RST](photos/RST.jpg)
+
 If you need specify your port then open mfrc522/MFRC522.py and change `pin_rst` to your number of the physically port
 
 ## Example Code
